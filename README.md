@@ -1,10 +1,12 @@
-Summary:
+# Simple Gulp Workflow
+
+## Summary
 This file will jumpstart and automate your projects! It provides several
 useful functions (tasks) that can be run in the terminal to help speed up
 development as well as build your project. Check out https://gulpjs.com
 for docs and more information.
 
-Tasks:
+## Tasks:
 Check out the following tasks available:
 `gulp`
 `gulp copy`
@@ -14,7 +16,7 @@ Check out the following tasks available:
 `gulp clean`
 `gulp build`
 
-Folders and Files:
+## Folders and Files:
 The project's source code is stored in the src directory and contains
 preprocessed files (e.g. sass). The tmp directory contains our preprocessed
 files to use for local development and testing. Finally the dist directory
@@ -38,7 +40,7 @@ contains concatenated and minified files optimized for production.
   ├── js/
   └──  .html
 
-Plugins:
+## Plugins:
 gulp         => load gulp (of course!)
 browserSync  => live CSS reloading and browser syncing
 sass         => compile Sass into CSS
@@ -52,7 +54,7 @@ rename       => easily rename, add suffixes/prefixes to files
 del          => delete specified files and/or folders
 plumber      => Prevent pipe breaking caused by errors
 
-Todo:
+## Todo:
 1. Include SourceMaps for tmp and dist
 2. Switch to ES6 syntax (e.g. arrow function notation)
 3. Upgrade to Gulp4
